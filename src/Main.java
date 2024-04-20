@@ -1,18 +1,22 @@
+import java.util.Scanner;
+
 public class Main {
     public static void main(String[] args) {
-//        int a = 6*5-34/2;
-//        System.out.println(a);
-//
-//        int b = 34/2-6*5+15;
-//        System.out.println(b);
 
-        /*int c = 4/2-2*2;
-        System.out.println(c);*/
+        Scanner sc = new Scanner(System.in);
+        System.out.println("enter your first number");
+        int a = sc.nextInt();
+        System.out.println("enter your second number");
+        int b = sc.nextInt();
+        System.out.println("enter your third number");
+        int c = sc.nextInt();
+        System.out.println("enter your forth number");
+        int d = sc.nextInt();
+        System.out.println("enter your fifth number");
+        int e = sc.nextInt();
 
-        int a = 10;
-//        int b = a++;
-//        int c = ++a;
-        System.out.println(++a);
+        float f1 = ((a+b+c+d+e)/500.0f)*100;
 
+        System.out.println("percentage" + "=" + f1);
     }
 }
