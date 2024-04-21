@@ -1,5 +1,6 @@
-import java.util.Scanner;
-
+//import java.util.Locale;
+//import java.util.Scanner;
+import java.util.Arrays;
 public class Main {
     public static void main(String[] args) {
 
@@ -10,11 +11,27 @@ public class Main {
 //        grade = (char)(grade-5);
 //        System.out.println(grade);
 
-        int a = 20;
-        float b = 25.743f;
+//        int a = 20;
+//        float b = 25.743f;
+//
+//        System.out.printf("the value of a is %d and the valu(e of b %f", a,b);
 
-        System.out.printf("the value of a is %d and the value of b %f", a,b);
 
+//        String name  = "PREETAM";
+//        java.lang.String a = name.toLowerCase();
+//        System.out.println(a);
 
+//       String name = "preetam";
+//        System.out.println(name.substring(1,4));
+
+ //  System.out.println(name.replace("pree","pri"));
+
+//        System.out.println(name.startsWith("p"));
+//        System.out.println(name.endsWith("m"));
+
+        String name = "preetam adhikari is a good boy";
+        String[] array = name.split(" ");
+        System.out.println(Arrays.toString(array));
+        System.out.println(array[0]);
     }
 }
