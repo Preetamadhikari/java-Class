@@ -3,20 +3,18 @@ import java.util.Scanner;
 public class Main {
     public static void main(String[] args) {
 
-        Scanner sc = new Scanner(System.in);
-        System.out.println("enter your first number");
-        int a = sc.nextInt();
-        System.out.println("enter your second number");
-        int b = sc.nextInt();
-        System.out.println("enter your third number");
-        int c = sc.nextInt();
-        System.out.println("enter your forth number");
-        int d = sc.nextInt();
-        System.out.println("enter your fifth number");
-        int e = sc.nextInt();
+   /* float a = 7/4.0f*9/2.0f;
+        System.out.println(a);*/
 
-        float f1 = ((a+b+c+d+e)/500.0f)*100;
+//        char grade = ('f');
+//        grade = (char)(grade-5);
+//        System.out.println(grade);
 
-        System.out.println("percentage" + "=" + f1);
+        int a = 20;
+        float b = 25.743f;
+
+        System.out.printf("the value of a is %d and the value of b %f", a,b);
+
+
     }
 }
