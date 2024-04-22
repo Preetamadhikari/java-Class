@@ -29,9 +29,14 @@ public class Main {
 //        System.out.println(name.startsWith("p"));
 //        System.out.println(name.endsWith("m"));
 
-        String name = "preetam adhikari is a good boy";
-        String[] array = name.split(" ");
-        System.out.println(Arrays.toString(array));
-        System.out.println(array[0]);
+//        String name = "preetam adhikari is a good boy";
+//        String[] array = name.split(" ");
+//        System.out.println(Arrays.toString(array));
+//        System.out.println(array[0]);
+
+        String name = "preetam";
+//        System.out.println(name.concat("  adhikari"));
+
+        
     }
 }
